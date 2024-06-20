@@ -63,14 +63,8 @@ function counter(operand: string): void
     .count {
       padding: 0.6rem 1rem 0.6rem 1rem;
       border-radius: 12px;
-      background-color: #f9f9f9;
+      background-color: inherit;
     }
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  .count {
-    background-color: #2c2c2c;
   }
 }
 </style>
