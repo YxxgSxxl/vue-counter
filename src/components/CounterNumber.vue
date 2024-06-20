@@ -68,9 +68,9 @@ function counter(operand: string): void
   }
 }
 
-// @media (prefers-color-scheme: dark) {
-//   .count {
-//     background-color: #2c2c2c;
-//   }
-// }
+@media (prefers-color-scheme: dark) {
+  .count {
+    background-color: #2c2c2c;
+  }
+}
 </style>
