@@ -63,7 +63,7 @@ function counter(operand: string): void
     .count {
       padding: 0.6rem 1rem 0.6rem 1rem;
       border-radius: 12px;
-      background-color: #F9F9F9;
+      background-color: inherit;
     }
   }
 }
