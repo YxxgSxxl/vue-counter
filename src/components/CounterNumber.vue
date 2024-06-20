@@ -68,11 +68,4 @@ function counter(operand: string): void
   }
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    color: #ffffff;
-    background-color: #213547;
-  }
-}
-
 </style>
