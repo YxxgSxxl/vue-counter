@@ -15,7 +15,7 @@ var reset = function() {
     count.value = 0
   }
 
-function counter(operand): void
+function counter(operand: string): void
 {
   if (operand == "minus") {
     count.value--
