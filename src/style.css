@@ -81,9 +81,12 @@ button:focus-visible {
 @media (prefers-color-scheme: dark) {
   :root {
     color: #ffffff;
-    background-color: #213547;
+    background-color: #191919;
   }
   button {
-    background-color: #ec3e3e;
+    background-color: #213547;
+  }
+  .card div {
+    background-color: #213547;
   }
 }
