@@ -67,7 +67,12 @@ function counter(operand: string): void
     }
   }
 }
-.read-the-docs {
-  color: #888;
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color: #ffffff;
+    background-color: #213547;
+  }
 }
+
 </style>
