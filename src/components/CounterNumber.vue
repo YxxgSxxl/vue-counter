@@ -59,13 +59,18 @@ function counter(operand: string): void
   .counter {
     display: flex;
     gap: .5rem;
-
+    
     .count {
       padding: 0.6rem 1rem 0.6rem 1rem;
       border-radius: 12px;
-      background-color: inherit;
+      background-color: #f9f9f9;
     }
   }
 }
 
+// @media (prefers-color-scheme: dark) {
+//   .count {
+//     background-color: #2c2c2c;
+//   }
+// }
 </style>
